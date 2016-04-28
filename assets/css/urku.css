@@ -1136,11 +1136,11 @@ body {
 }
 
 .rk-portfolio-inner-client span {
-  letter-spacing: .05em;
+  letter-spacing: 0em;
 }
 
 .rk-portfolio-inner-website {
-  letter-spacing: .05em;
+  letter-spacing: 0em;
 }
 
 .rk-portfolio-inner-date {
@@ -1323,7 +1323,7 @@ body {
 
 .blog-info__excerpt {
   margin-top: 3.9rem;
-  letter-spacing: .05em;
+  letter-spacing: 0em;
   line-height: 1.8125;
   text-align: left;
 }
@@ -1356,7 +1356,7 @@ body {
 
 .blog-meta__date {
   color: #787878;
-  letter-spacing: .05em;
+  letter-spacing: 0em;
 }
 
 #layout-grid:checked ~ .rk-blog .blog-info,
@@ -1663,7 +1663,7 @@ body {
 }
 
 .rk-comments__title {
-  letter-spacing: .05em;
+  letter-spacing: 0em;
   margin-bottom: 5rem;
 }
 
@@ -1698,7 +1698,7 @@ body {
   margin-bottom: .75rem;
 }
 .rk-comment__body {
-  letter-spacing: .05em;
+  letter-spacing: 0em;
   margin-bottom: 1.8rem;
 }
 .rk-comment__author {
@@ -1726,15 +1726,15 @@ body {
 .conatct__title,
 .contact__addr,
 .contact__email {
-  letter-spacing: .06em;
+  letter-spacing: 0em;
 }
 
 .contact__desc {
-  letter-spacing: .05em;
+  letter-spacing: 0em;
 }
 
 .contact__phone {
-  letter-spacing: .1em;
+  letter-spacing: 0em;
 }
 
 .contact_spacer {
