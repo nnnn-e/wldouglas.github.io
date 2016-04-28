@@ -6,28 +6,28 @@
  Licensed under  MIT 
 \* * * * * * * * * * * * * * * * * * * * */
 @font-face {
-  font-family: "DIN";
+  font-family: "europa";
   font-style: normal;
   font-weight: 400;
   src: url("fonts/aurora-theme-base-fonts/DIN-regular.woff2") format("woff2"), url("fonts/aurora-theme-base-fonts/DIN-regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: "DIN";
+  font-family: "europa";
   font-style: normal;
   font-weight: 500;
   src: url("fonts/aurora-theme-base-fonts/DIN-semibold.woff2") format("woff2"), url("fonts/aurora-theme-base-fonts/DIN-semibold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "DIN";
+  font-family: "europa";
   font-style: normal;
   font-weight: 700;
   src: url("fonts/aurora-theme-base-fonts/DIN-bold.woff2") format("woff2"), url("fonts/aurora-theme-base-fonts/DIN-bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "DIN";
+  font-family: "europa";
   font-style: normal;
   font-weight: 900;
   src: url("fonts/aurora-theme-base-fonts/DIN-black.woff2") format("woff2"), url("fonts/aurora-theme-base-fonts/DIN-black.woff") format("woff");
@@ -35,7 +35,7 @@
 
 body {
   line-height: 1.556;
-  font-family: "DIN", Helvetica, Arial, sans-serif;
+  font-family: "europa", Helvetica, Arial, sans-serif;
 }
 
 a,
@@ -59,7 +59,7 @@ blockquote {
   padding-left: 0;
 }
 blockquote footer {
-  font-family: "DIN", Helvetica, Arial, sans-serif;
+  font-family: "europa", Helvetica, Arial, sans-serif;
 }
 
 input[type="text"],
