@@ -1202,7 +1202,7 @@ body {
 }
 @media (min-width: 40em) {
   .item-inside-1 {
-    background-size: 150%;
+    background-size: 110%;
   }
 }
 
@@ -1779,7 +1779,7 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-  padding-top: .16rem;
+  padding-top: .5rem;
 }
 .rk-menu__item {
   color: #202020;
