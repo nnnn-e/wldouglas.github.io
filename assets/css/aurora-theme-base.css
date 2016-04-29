@@ -43,7 +43,7 @@
 
 body {
   line-height: 1.556;
-  font-family: "europa", Helvetica, Arial, sans-serif;
+  font-family: 'webfont';
 }
 
 a,
@@ -63,11 +63,11 @@ button:not(.au-underline) {
 
 blockquote {
   border-left: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'webfont';
   padding-left: 0;
 }
 blockquote footer {
-  font-family: "europa", Helvetica, Arial, sans-serif;
+  font-family: 'webfont';
 }
 
 input[type="text"],

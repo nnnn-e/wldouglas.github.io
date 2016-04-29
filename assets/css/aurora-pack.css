@@ -2540,7 +2540,7 @@ html {
 body {
   background-color: #fff;
   color: #202020;
-  font-family: "europa", Helvetica, Arial, sans-serif;
+  font-family: 'webfont'
   font-size: 1.125rem;
   line-height: 1.5;
 }
