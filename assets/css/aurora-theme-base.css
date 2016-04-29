@@ -5,7 +5,7 @@
  https://github.com/aurora-kit/aurora-themes.git 
  Licensed under  MIT 
 \* * * * * * * * * * * * * * * * * * * * */
-@font-face {font-family: 'webfont';
+@font-face {font-family: din;
   src: url('//at.alicdn.com/t/2jt0ld6i8edvlsor.eot'); /* IE9*/
   src: url('//at.alicdn.com/t/2jt0ld6i8edvlsor.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
   url('//at.alicdn.com/t/2jt0ld6i8edvlsor.woff') format('woff'), /* chrome、firefox */
@@ -14,7 +14,7 @@
 }
 
 
-@font-face {font-family: 'webfont';
+@font-face {font-family: din;
   src: url('//at.alicdn.com/t/440u4w08knqdj9k9.eot'); /* IE9*/
   src: url('//at.alicdn.com/t/440u4w08knqdj9k9.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
   url('//at.alicdn.com/t/440u4w08knqdj9k9.woff') format('woff'), /* chrome、firefox */
@@ -23,7 +23,7 @@
 }
 
 
-@font-face {font-family: 'webfont';
+@font-face {font-family: din;
   src: url('//at.alicdn.com/t/ttuups87f0mb1emi.eot'); /* IE9*/
   src: url('//at.alicdn.com/t/ttuups87f0mb1emi.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
   url('//at.alicdn.com/t/ttuups87f0mb1emi.woff') format('woff'), /* chrome、firefox */
@@ -32,7 +32,7 @@
 }
 
 
-@font-face {font-family: 'webfont';
+@font-face {font-family: din;
   src: url('//at.alicdn.com/t/p16tur8860wzh0k9.eot'); /* IE9*/
   src: url('//at.alicdn.com/t/p16tur8860wzh0k9.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
   url('//at.alicdn.com/t/p16tur8860wzh0k9.woff') format('woff'), /* chrome、firefox */
@@ -43,7 +43,7 @@
 
 body {
   line-height: 1.556;
-  font-family: 'webfont';
+  font-family: din;
 }
 
 a,
@@ -63,11 +63,11 @@ button:not(.au-underline) {
 
 blockquote {
   border-left: 0;
-  font-family: 'webfont';
+  font-family: din;
   padding-left: 0;
 }
 blockquote footer {
-  font-family: 'webfont';
+  font-family: din;
 }
 
 input[type="text"],
