@@ -5,33 +5,41 @@
  https://github.com/aurora-kit/aurora-themes.git 
  Licensed under  MIT 
 \* * * * * * * * * * * * * * * * * * * * */
-@font-face {
-  font-family: "europa";
-  font-style: normal;
-  font-weight: 400;
-  src: url("fonts/aurora-theme-base-fonts/DIN-regular.woff2") format("woff2"), url("fonts/aurora-theme-base-fonts/DIN-regular.woff") format("woff");
+@font-face {font-family: 'webfont';
+  src: url('//at.alicdn.com/t/2jt0ld6i8edvlsor.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/2jt0ld6i8edvlsor.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/2jt0ld6i8edvlsor.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/2jt0ld6i8edvlsor.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/2jt0ld6i8edvlsor.svg#NotoSansHans-DemiLight') format('svg'); /* iOS 4.1- */
 }
 
-@font-face {
-  font-family: "europa";
-  font-style: normal;
-  font-weight: 500;
-  src: url("fonts/aurora-theme-base-fonts/DIN-semibold.woff2") format("woff2"), url("fonts/aurora-theme-base-fonts/DIN-semibold.woff") format("woff");
+
+@font-face {font-family: 'webfont';
+  src: url('//at.alicdn.com/t/440u4w08knqdj9k9.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/440u4w08knqdj9k9.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/440u4w08knqdj9k9.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/440u4w08knqdj9k9.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/440u4w08knqdj9k9.svg#思源黑体-极细') format('svg'); /* iOS 4.1- */
 }
 
-@font-face {
-  font-family: "europa";
-  font-style: normal;
-  font-weight: 700;
-  src: url("fonts/aurora-theme-base-fonts/DIN-bold.woff2") format("woff2"), url("fonts/aurora-theme-base-fonts/DIN-bold.woff") format("woff");
+
+@font-face {font-family: 'webfont';
+  src: url('//at.alicdn.com/t/ttuups87f0mb1emi.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/ttuups87f0mb1emi.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/ttuups87f0mb1emi.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/ttuups87f0mb1emi.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/ttuups87f0mb1emi.svg#思源黑体-粗') format('svg'); /* iOS 4.1- */
 }
 
-@font-face {
-  font-family: "europa";
-  font-style: normal;
-  font-weight: 900;
-  src: url("fonts/aurora-theme-base-fonts/DIN-black.woff2") format("woff2"), url("fonts/aurora-theme-base-fonts/DIN-black.woff") format("woff");
+
+@font-face {font-family: 'webfont';
+  src: url('//at.alicdn.com/t/p16tur8860wzh0k9.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/p16tur8860wzh0k9.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/p16tur8860wzh0k9.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/p16tur8860wzh0k9.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/p16tur8860wzh0k9.svg#NotoSansHans-Black') format('svg'); /* iOS 4.1- */
 }
+
 
 body {
   line-height: 1.556;
