@@ -1,219 +1,344 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <title>wldouglas</title>
-    <link rel="icon" type="image/svg+xml" href="assets/img/urku-ico.svg">
-    <link rel="stylesheet" href="assets/css/aurora-pack.min.css">
-    <link rel="stylesheet" href="assets/css/aurora-theme-base.min.css">
-    <link rel="stylesheet" href="assets/css/urku.css">
-    <style type="text/css">
-    #self_des{
-      position: relative; width: 100%;height: 600px;background: #fff;margin:0 auto;padding: auto;
-      }
-      #self_des .sd_container{height:200px;width: 50%;margin:0 auto;position: relative;}
-      #self_des .sd_container>p{color:#000;font-size: 1.8rem;text-align: center;font-weight: bold;position: absolute;letter-spacing: 0;display: inline;top:50%;}
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="./css/animate.min.css" /><link rel='stylesheet' href='./css/font-awesome.min.css'/><link rel='stylesheet' href='./css/ionicons.min.css'/>
+    
+	<script src="./js/jquery-2.1.0.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/blocs.min.js"></script>
+    <title>Home</title>
 
-    </style>
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
+    
+<!-- hero-bloc -->
+<div id="hero-bloc" class="bloc bloc-fill-screen b-parallax bgc-black-2 bg-desk-equipment d-bloc">
+	<div class="container fill-bloc-top-edge">
+		<nav class="navbar row">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" width="180" /></a>
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse navbar-1">
+				<ul class="site-navigation nav navbar-nav pull-right">
+					<li class="active">
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="产品.html">Prodcuts</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<div class="container fill-bloc-bottom-edge">
+		<div class="row">
+			<div class="col-sm-12">
+				<a id="scroll-hero" class="btn-dwn" href="#"></a>
+				<div class="text-center">
+					<a id="scroll-hero" class="btn-dwn" href="#"></a><a onclick="scrollToTarget('#bloc-2')"><span class="fa fa-chevron-down icon-1660 icon-snow icon-sm sm-shadow"></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row animDelay02 animated zoomIn">
+			<div class="col-sm-12">
+				<h1 class=" mg-lg text-w-lg text-left text-center tc-white ">
+					从现在开始，印刷你无法想象的美
+				</h1>
+				<h3 class=" text-center mg-lg text-w-lg tc-white-2">
+					荆沪印务致力于为您打造最佳印刷服务，提供高品质的印刷产品，高标准还原您的设计
+				</h3>
+				<div class="text-center">
+					<a href="index.html" class="btn btn-rd btn-black">开始预定</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- hero-bloc END -->
 
-  </head>
-  <body class="top-fixed">
-    <header class="ae-container-fluid ae-container-fluid--full rk-header ">
-      <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
-      <label for="mobile-menu">
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-      </label>
-      <div class="ae-container-fluid rk-topbar">
-        <h1 class="rk-logo"><a href="index.html"><?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" width="40px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-   viewBox="0 0 100 150" style="enable-background:new 0 0 100 150;" xml:space="preserve">
-<g>
-  <path d="M13.4,32.9v-6.8L28.9,7H13.8V0.4h24.9v6.3L22.9,26.1H39v6.8H13.4z"/>
-  <path d="M15,55.4h12.4c1.6,0,3.1,0.2,4.6,0.5c1.5,0.3,2.8,0.9,4,1.6c1.2,0.8,2.1,1.8,2.8,3c0.7,1.3,1.1,2.8,1.1,4.7
-    c0,2.2-0.6,4.1-1.8,5.5s-2.8,2.6-5,3.2l8.5,13.9h-9.2l-7-12.9h-2.7v12.9H15V55.4z M32,65.4c0-0.8-0.2-1.4-0.5-1.9s-0.7-0.8-1.2-1.1
-    c-0.5-0.3-1.1-0.4-1.7-0.5s-1.2-0.1-1.8-0.1h-4.2v7.6h3.7c0.6,0,1.3-0.1,2-0.2c0.7-0.1,1.3-0.3,1.8-0.6c0.6-0.3,1-0.7,1.4-1.2
-    C31.8,66.9,32,66.2,32,65.4z"/>
-  <g>
-    <rect x="56.4" y="0.7" width="28" height="6.5"/>
-    <rect x="56.4" y="13.4" width="28" height="6.5"/>
-    <rect x="56.4" y="26.1" width="28" height="6.5"/>
-  </g>
-  <path d="M70.4,55.4c-9,0-16.2,7.3-16.2,16.2c0,9,7.3,16.2,16.2,16.2s16.2-7.3,16.2-16.2C86.6,62.7,79.3,55.4,70.4,55.4z M70.4,81.3
-    c-5.3,0-9.7-4.3-9.7-9.7c0-5.3,4.3-9.7,9.7-9.7s9.7,4.3,9.7,9.7C80,77,75.7,81.3,70.4,81.3z"/>
-</g>
-</svg>
+<!-- bloc-2 -->
+<div class="bloc bgc-2 l-bloc" id="bloc-2">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="img/p01.png" class="img-responsive" />
+				<h3 class="mg-md">
+					办公用品黑白系列组合，简单干练，大气简约
+				</h3>
+				<p>
+					适合：互联网公司、时尚行业等；<br /> 价格：适中；
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="img/p02.png" class="img-responsive" />
+				<h3 class="mg-md">
+					办公用品复古组合，充满东方禅意的设计和材质
+				</h3>
+				<p>
+					适合：互联网公司、餐饮行业；<br /> 价格：可议价；
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="img/p03.png" class="img-responsive" />
+				<h3 class="mg-md">
+					大胆健康生活系列，充满生活青春活力
+				</h3>
+				<p>
+					适合：互联网电商行业，面向年轻群体；<br /> 价格：可议价；
+				</p>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-4">
+				<img src="img/p04.png" class="img-responsive" />
+				<h3 class="mg-md">
+					城市精英办公室黑色系列。面向都市新时尚行业
+				</h3>
+				<p>
+					适合：互联网公司、餐饮行业；<br /> 价格：可议价；
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="img/p05.png" class="img-responsive" />
+				<h3 class="mg-md">
+					都市健康生活新典范。面向追求高品质生活公司
+				</h3>
+				<p>
+					适合：互联网公司、餐饮行业；<br /> 价格：可议价；
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="img/p06.png" class="img-responsive" />
+				<h3 class="mg-md">
+					轻奢新潮流。打造一流公司环境必备组合
+				</h3>
+				<p>
+					适合：互联网公司、餐饮行业；<br /> 价格：可议价；
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-2 END -->
 
-</a></h1>
-        <nav class="rk-navigation">
-          <ul class="rk-menu">
-            <li class="active rk-menu__item"><a href="index.html" class="rk-menu__link">Home</a>
-            </li>
-            <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Portfolio</a>
-              <nav class="rk-menu__sub">
-                <ul class="rk-container">
-                  <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Flex</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-alt.html" class="rk-menu__link">Switch</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-raw.html" class="rk-menu__link">Static</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-masonry.html" class="rk-menu__link">Masonry</a></li>
-                </ul>
-              </nav>
-            </li>            
-            <li class="rk-menu__item"><a href="https://www.dropbox.com/s/izc0t51tnqxgxgm/Resume_EN.pdf?dl=0" class="rk-menu__link">CV</a>
-            </li>
-          </ul>
-         
-        </nav>
-      </div>
-    </header>
+<!-- bloc-3 -->
+<div class="bloc bgc-2 bg-bg02 d-bloc" id="bloc-3">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<a href="index.html" class="btn   btn-lg btn-black"><span class="fa fa-star icon-spacer"></span>立即定制你独一无二的印刷精品</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-3 END -->
 
+<!-- bloc-4 -->
+<div class="bloc bgc-2 l-bloc" id="bloc-4">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="img/m01.png" class="img-responsive" />
+				<h3 class="mg-md">
+					美食包装
+				</h3>
+				<p>
+					天下唯有美食不可辜负也
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="img/m02.png" class="img-responsive" />
+				<h3 class="mg-md">
+					不干胶，可再生包装
+				</h3>
+				<p>
+					环保可再生，不仅仅是包装。我们用心做好包装，也用心改善环境
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="img/m03.png" class="img-responsive" />
+				<h3 class="mg-md">
+					健康环保纸，美味绝配
+				</h3>
+				<p>
+					致力于打造城市新生活，有利以来对严格的纸张要求，为您的产品更佳出众受欢迎。
+				</p>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-4">
+				<img src="img/m04.png" class="img-responsive" />
+				<h3 class="mg-md">
+					食品包装我们很讲究
+				</h3>
+				<p>
+					荆沪印务认真对待每一次食品包装的过程。
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="img/m05.png" class="img-responsive" />
+				<h3 class="mg-md">
+					美食再多，放心打包回家
+				</h3>
+				<p>
+					美食再多，放心打包回家。让你不再担心纸张的危害
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="img/m06.png" class="img-responsive" />
+				<h3 class="mg-md">
+					不仅装吃，也装喝
+				</h3>
+				<p>
+					荆州印务的再一次提高行业标准，改善您的生活。
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-4 END -->
+
+<!-- bloc-5 -->
+<div class="bloc b-divider tc-aurometalsaurus bgc-2" id="bloc-5">
+	<div class="container bloc-xl">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="text-center">
+					<span class="fa fa-thumbs-up animated fadeInUp animDelay02 icon-md icon-medium-turquoise"></span>
+				</div>
+				<h3 class="text-center animated fadeInUp animDelay02  text-w-80 mg-md tc-aurometalsaurus">
+					<br />“品质"
+				</h3>
+				<p class="text-center animated fadeInUp animDelay02  mg-lg text-w-70">
+					上乘平台，上乘品质
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<div class="text-center">
+					<span class="fa fa-rocket animated fadeInUp animDelay02 icon-md icon-medium-turquoise"></span>
+				</div>
+				<h3 class="text-center animated fadeInUp animDelay02  text-w-80 mg-md tc-aurometalsaurus">
+					<br />“快速”
+				</h3>
+				<p class="text-center animated fadeInUp animDelay02  text-w-70">
+					无论再快，都保证品质
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<div class="text-center">
+					<span class="fa fa-briefcase animDelay02 animated fadeInUp icon-md icon-medium-turquoise"></span>
+				</div>
+				<h3 class="text-center animated fadeInUp animDelay02  text-w-80 mg-md tc-aurometalsaurus">
+					<br />“诚信”
+				</h3>
+				<p class="text-center  text-w-70">
+					诚以待人，信以待物
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-5 END -->
+
+<!-- bloc-6 -->
+<div class="bloc bgc-2 l-bloc" id="bloc-6">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-12">
+				<h3 class="text-center  mg-md">
+					我们的客户
+				</h3>
+				<p class="text-center mg-lg">
+					正在使用荆沪印务印刷服务的公司
+				</p>
+			</div>
+			<div class="col-xs-12 col-md-8 col-md-offset-2">
+				<div class="col-sm-3">
+					<img src="img/google.png" class="img-responsive" />
+				</div>
+				<div class="col-sm-3">
+					<img src="img/facebook.png" class="img-responsive mg-lg" />
+				</div>
+				<div class="col-sm-3">
+					<img src="img/stripe.png" class="img-responsive" />
+				</div>
+				<div class="col-sm-3">
+					<img src="img/yahoo.png" class="img-responsive" />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-6 END -->
+
+<!-- bloc-7 -->
+<div class="bloc bg-photo-1429637119272-20043840c013 bgc-medium-turquoise l-bloc" id="bloc-7">
+	<div class="container bloc-lg">
+		<div class="row voffset-md">
+			<div class="col-sm-10">
+				<h3 class="mg-lg tc-snow">
+					预定前 100 名有荆沪印务周边神秘大礼
+				</h3>
+			</div>
+			<div class="col-sm-2">
+				<a href="index.html" class="btn  btn-d  btn-lg btn-rd"><span class="ion ion-android-send icon-spacer icon-snow"></span>立即预定</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-7 END -->
+
+<!-- Footer - bloc-15 -->
+<div class="bloc bgc-2 l-bloc" id="bloc-15">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-3">
+				<h3 class="mg-md ">
+					关于
+				</h3><a href="index.html" class="a-btn a-block ltc-ash-grey">关于荆沪印务</a><a href="index.html" class="a-btn a-block ltc-ash-grey">联系我们</a>
+			</div>
+			<div class="col-sm-3">
+				<h3 class="mg-md ">
+					印刷与自然
+				</h3><a href="index.html" class="a-btn a-block ltc-ash-grey">环境保护</a><a href="index.html" class="a-btn a-block ltc-ash-grey">节能印刷技术</a>
+			</div>
+			<div class="col-sm-3">
+				<h3 class="mg-md ">
+					关注我们
+				</h3><a href="index.html" class="a-btn a-block ltc-ash-grey">微博</a><a href="index.html" class="a-btn a-block ltc-ash-grey">微信</a>
+			</div>
+			<div class="col-sm-3">
+				<h3 class="mg-md ">
+					其它
+				</h3><a href="index.html" class="a-btn a-block ltc-ash-grey">沪备 20000001 -1 号</a><a href="index.html" class="a-btn a-block ltc-ash-grey">© 2016 荆沪印务</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - bloc-15 END -->
+</div>
+<!-- Main container END -->
     
 
+</body>
+    
+<!-- Google Analytics -->
 
-    <section class="ae-container-fluid rk-main">
-      <input type="radio" name="layout-ctrl" checked id="layout-base" class="layout-ctrl-input">
-      <div class="ae-container-fluid rk-layout-ctrl-cont">
-        <label for="layout-base" class="rk-layout-ctrl">
-          <svg>
-            <use xlink:href="assets/img/symbols.svg#icon-view-default"></use>
-          </svg>
-        </label>
-      </div>
-      <input type="radio" name="layout-ctrl" id="layout-grid" class="layout-ctrl-input">
-      <div class="ae-container-fluid rk-layout-ctrl-cont">
-        <label for="layout-grid" class="rk-layout-ctrl">
-          <svg>
-            <use xlink:href="assets/img/symbols.svg#icon-view-alt"></use>
-          </svg>
-        </label>
-      </div>
-      <div class="rk-layout-ctrl-mobile">
-        <svg viewBox="0 0 9 9" class="layout-mob-1">
-          <rect width="100%" height="100%" fill="currentColor"></rect>
-        </svg>
-        <svg viewBox="0 0 9 9" class="layout-mob-2">
-          <rect width="100%" height="100%" fill="currentColor"></rect>
-        </svg>
-        <svg viewBox="0 0 9 9" class="layout-mob-3">
-          <rect width="100%" height="100%" fill="currentColor"></rect>
-        </svg>
-        <svg viewBox="0 0 9 9" class="layout-mob-4">
-          <rect width="100%" height="100%" fill="currentColor"></rect>
-        </svg>
-      </div>
+<!-- Google Analytics END -->
 
-<section id="self_des">
-      <div class="sd_container">
-        <p>
-          WANG LONG is a full stack designer, front-end developer, traveller, photographer, reader, living in Shanghai China.
-        </p>
-      </div>
-    </section>
-
-      <section class="ae-container-fluid ae-container-fluid--inner loading rk-portfolio ">
-        <div class="rk-portfolio__items"><a href="portfolio-item.html" class="rk-item rk-item--flex item-1 rk-size-12 rk-tosize-6 rk-landscape ">
-            <div class="item-meta">
-              <h2>I felt very Anxiety</h2>
-              <p>Illustration</p>
-            </div></a><a href="portfolio-item.html" class="rk-item rk-item--flex item-2 rk-size-6  rk-portrait ">
-            <div class="item-meta">
-              <h2>Box Surface</h2>
-              <p>Typography</p>
-            </div></a><a href="portfolio-item.html" class="rk-item rk-item--flex item-3 rk-size-6 rk-tosize-4 rk-portrait rk-tosquare">
-            <div class="item-meta">
-              <h2>Guidance Of Conductions</h2>
-              <p>UI/UX</p>
-            </div></a>
-          <div class="rk-items-cont rk-size-6 rk-tosize-8"><a href="portfolio-item.html" class="rk-item rk-item--flex item-4 rk-size-12 rk-tosize-6 rk-landscape ">
-              <div class="item-meta">
-                <h2>Weather Illustrations</h2>
-                <p>Icons Illustration</p>
-              </div></a><a href="portfolio-item.html" class="rk-item rk-item--flex item-5 rk-size-12 rk-tosize-6 rk-landscape ">
-              <div class="item-meta">
-                <h2>Lonely Tree</h2>
-                <p>Branding</p>
-              </div></a>
-          </div><a href="portfolio-item.html" class="rk-item rk-item--flex item-6 rk-size-6 rk-tosize-4 rk-portrait rk-tosquare">
-            <div class="item-meta">
-              <h2>It's from a tree</h2>
-              <p>Graphic Design</p>
-            </div></a>
-          <div class="rk-items-cont rk-size-4 rk-tosize-8"><a href="portfolio-item.html" class="rk-item rk-item--flex item-7 rk-size-12 rk-tosize-6 rk-square ">
-              <div class="item-meta">
-                <h2>ZERO</h2>
-                <p>Graphic Design</p>
-              </div></a><a href="portfolio-item.html" class="rk-item rk-item--flex item-8 rk-size-12 rk-tosize-6 rk-square ">
-              <div class="item-meta">
-                <h2>It's a machine</h2>
-                <p>Illustration</p>
-              </div></a>
-          </div><a href="portfolio-item.html" class="rk-item rk-item--flex item-9 rk-size-8 rk-tosize-3 rk-square ">
-            <div class="item-meta">
-              <h2>Start to serve</h2>
-              <p>Branding/Icon</p>
-            </div></a><a href="portfolio-item.html" class="rk-item rk-item--flex item-10 rk-size-6 rk-tosize-3 rk-portrait rk-tosquare">
-            <div class="item-meta  rk-tosmallfont">
-              <h2>I want to be pure</h2>
-              <p>Soul</p>
-            </div></a>
-          <div class="rk-items-cont rk-size-6 rk-tosize-6"><a href="portfolio-item.html" class="rk-item rk-item--flex item-11 rk-size-12 rk-tosize-6 rk-landscape rk-tosquare">
-              <div class="item-meta">
-                <h2>Good Morning</h2>
-                <p>Illustration</p>
-              </div></a><a href="portfolio-item.html" class="rk-item rk-item--flex item-12 rk-size-12 rk-tosize-6 rk-landscape rk-tosquare">
-              <div class="item-meta">
-                <h2>Good Night</h2>
-                <p>Illustration</p>
-              </div></a>
-          </div><a href="portfolio-item.html" class="rk-item rk-item--flex item-13 rk-size-8 rk-tosize-3 rk-square ">
-            <div class="item-meta">
-              <h2>Desire and Ambition</h2>
-              <p>Illustration</p>
-            </div></a>
-          <div class="rk-items-cont rk-size-4 rk-tosize-6"><a href="portfolio-item.html" class="rk-item rk-item--flex item-14 rk-size-12 rk-tosize-6 rk-square ">
-              <div class="item-meta">
-                <h2>Connecting Dots</h2>
-                <p>Illustration</p>
-              </div></a><a href="portfolio-item.html" class="rk-item rk-item--flex item-15 rk-size-12 rk-tosize-6 rk-square ">
-              <div class="item-meta">
-                <h2>EmailEmailEmial</h2>
-                <p>Icon</p>
-              </div></a>
-          </div>
-        </div>
-      </section>
-    </section>
-    <footer class="ae-container-fluid rk-footer ">
-      <div class="ae-grid ae-grid--collapse">
-        <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
-                   <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">2016 WANG LONG </span> All Right Reserved.</p>
-        </div>
-        <div class="ae-grid__item item-lg-4 au-xs-ta-center"><a href="#0" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-dribbble"></use>
-            </svg></a><a href="http://dribbble.com/wldouglas" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-twitter"></use>
-            </svg></a><a href="http://twitter.com/wldouglas" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-instagram"></use>
-            </svg></a><a href="http://instagram.com/wldouglas2012" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-tumblr"></use>
-            </svg></a></div>
-        <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
-          <p class="rk-footer__text rk-footer__contact "> <span class="ae-u-bold">Email: </span><span class="ae-u-bolder"> <a href="#0" class="rk-dark-color ">wl@wldouglas.com </a></span></p>
-        </div>
-      </div>
-    </footer>
-  </body>
 </html>
