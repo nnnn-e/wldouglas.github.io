@@ -376,7 +376,7 @@ img.mg-lg{
 }
 .btn-d,.btn-d:hover,.btn-d:focus{
 	color:#FFF;
-	background:rgba(0,0,0,.3);
+	background:rgba(0,0,0,1);
 }
 
 /* Prevent ugly blue glow on chrome and safari */
