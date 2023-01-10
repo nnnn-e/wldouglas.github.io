@@ -14,6 +14,20 @@ body{
 a:hover{text-decoration: none; cursor:pointer;}
 
 a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
+a,
+html,
+p,
+span,
+h1,h2,h3{
+
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+	-webkit-smoothing: antialiased;
+	
+
+
+}
 
 /* = Blocs
 -------------------------------------------------------------- */
